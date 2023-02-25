@@ -7,9 +7,7 @@ function Events({ data }) {
   return (
     <>
       {selected ? (
-        <h1>
-          show rating
-        </h1>
+<Eventdetail event={selected} />        
       ) : (
         <div class="relative overflow-x-auto">
           <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
